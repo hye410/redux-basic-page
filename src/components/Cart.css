@@ -1,0 +1,80 @@
+#cart{
+  width : 993px;
+  margin : 0 auto;
+  /* background-color: violet;   */
+}
+
+#cart>h3{
+  font-size: 30px;
+  /* font-weight: bold; */
+  margin-bottom : 21px;
+  text-align: center;
+}
+
+.boxCart{
+  width : 993px;
+  margin : 0 auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.boxCart>figure{
+  width : calc(25% - 1em);
+  margin : 0 0 1em;
+  border : 3px solid #d5d5d5;
+  padding : 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.boxCart>figure>img{
+  width : 100%;
+  margin-bottom : 10px;
+}
+
+.boxCart>figure>figcaption dt{
+  font-weight: bold;
+  margin-bottom : 10px;
+  color :#333;
+}
+.boxCart>figure>figcaption dd{
+  margin-bottom:10px;
+  font-size: 14px;
+  color : #333;
+}
+
+.boxCart>figure>figcaption button{
+  border : 1px solid #ddd;
+  background-color: yellowgreen;
+  color:#fff;
+}
+
+footer{
+  width : 993px;
+  margin : 0 auto;
+  text-align: center;
+  font-size: 24px;
+}
+
+footer>p{
+  margin-bottom : 20px;
+}
+
+footer>p>button{
+  border : 1px solid #d5d5d5;
+  background-color: rgb(48, 58, 28);
+  color : #fff;
+  padding : 5px 8px;
+}
+
+footer>div{
+  width : 80%;
+  margin : 0 auto;
+  padding : 20px;
+  box-sizing: border-box;
+  color : #333;
+  border : 2px solid #ddd;
+  line-height: 40px;
+}

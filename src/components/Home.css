@@ -1,0 +1,23 @@
+#home{
+  width : 993px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#home>figure{
+  width : calc(25% - 1em);
+  padding : 10px;
+  border : 3px solid #d5d5d5;
+  margin : 0 0 1em;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+#home>figure>img{
+  width : 100%;
+  margin-bottom : 10px;
+}
+
+
