@@ -20,4 +20,23 @@
   margin-bottom : 10px;
 }
 
+#home dl dt{
+  font-weight: bold;
+  margin-bottom :5px;
+}
 
+#home dl dd{
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+#home dl button{
+  background-color: yellowgreen;
+  border : 1px solid #d5d5d5;
+  color : #fff;
+  padding : 3px 5px;
+}
+
+#home dl>dd:last-child{
+  margin-bottom : 0;
+}
